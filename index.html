@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Ranvirsinh Makvana | Full-Stack WordPress Developer</title>
+     <meta name="description"
+          content="Portfolio of Ranvirsinh Makvana, a Full-Stack WordPress Developer specializing in custom plugins, themes, and PHP development.">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+     <div class="cursor-dot" id="cursor-dot"></div>
+     <div class="cursor-outline" id="cursor-outline"></div>
+
+     <header class="header">
+          <div class="container nav-container">
+               <a href="#" class="logo">RB<span class="dot">.</span></a>
+               <nav class="nav">
+                    <ul class="nav-list">
+                         <li><a href="#home" class="nav-link">Home</a></li>
+                         <li><a href="#about" class="nav-link">About</a></li>
+                         <li><a href="#experience" class="nav-link">Experience</a></li>
+                         <li><a href="#portfolio" class="nav-link">Work</a></li>
+                         <li><a href="#contact" class="nav-link">Contact</a></li>
+                         <li><button id="theme-toggle" class="btn-theme"><i class="fas fa-moon"></i></button></li>
+                    </ul>
+                    <div class="hamburger">
+                         <span class="bar"></span>
+                         <span class="bar"></span>
+                         <span class="bar"></span>
+                    </div>
+               </nav>
+          </div>
+     </header>
+
+     <main>
+          <section id="home" class="hero">
+               <div class="hero-shapes">
+                    <!-- Floating Skills Icons -->
+                    <i class="fab fa-wordpress floating-icon icon-1"></i>
+                    <i class="fab fa-php floating-icon icon-2"></i>
+                    <i class="fab fa-js floating-icon icon-3"></i>
+                    <i class="fab fa-html5 floating-icon icon-4"></i>
+                    <i class="fab fa-css3-alt floating-icon icon-5"></i>
+                    <i class="fas fa-database floating-icon icon-6"></i>
+               </div>
+               <div class="hero-bg">
+                    <div class="galaxy" id="galaxy"></div>
+                    <div class="overlay"></div>
+               </div>
+               <div class="container hero-content">
+                    <div class="hero-text">
+                         <h2 class="hero-subtitle fade-in-up">Hello, I'm Ranvirsinh Makvana</h2>
+                         <h1 class="hero-title fade-in-up delay-1">Full-Stack<br> <span class="gradient-text">WordPress
+                                   Dev</span></h1>
+                         <p class="hero-description fade-in-up delay-2">
+                              Custom Plugin & Theme Specialist | PHP Developer<br>
+                              Building responsive, scalable, and secure web solutions.
+                         </p>
+                         <div class="hero-buttons fade-in-up delay-3">
+                              <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                         </div>
+                    </div>
+                    <div class="hero-image fade-in-up delay-2">
+                         <div class="image-wrapper">
+                              <img src="assets/hero-profile.png" alt="Ranvirsinh Makvana">
+                         </div>
+                    </div>
+               </div>
+               <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <i class="fas fa-chevron-down"></i>
+               </div>
+          </section>
+
+          <section id="about" class="about section">
+               <div class="container">
+                    <div class="section-header">
+                         <h2 class="section-title">About Me</h2>
+                         <p class="section-subtitle">Developer & Problem Solver</p>
+                    </div>
+                    <div class="about-content">
+                         <div class="about-text">
+                              <p>I am an ambitious and results-driven Web Developer with a Master’s in Computer
+                                   Applications and 3+ years of hands-on experience in WordPress development, frontend
+                                   integration, and custom plugin development.</p>
+                              <p>I specialize in building responsive, scalable, and secure web solutions while
+                                   collaborating effectively with cross-functional teams. I continuously adapt to
+                                   emerging technologies to deliver innovative and high-performance digital products.
+                              </p>
+
+                              <div class="education-block" style="margin-top: 30px;">
+                                   <h3 style="margin-bottom: 20px; font-size: 1.5rem;">Education</h3>
+                                   <div class="edu-item"
+                                        style="margin-bottom: 20px; border-left: 3px solid var(--accent); padding-left: 20px;">
+                                        <h4 style="color: var(--text-primary);">Master of Computer Application (MCA)
+                                        </h4>
+                                        <p style="color: var(--text-secondary);">Parul University, Vadodara | 2021-2023
+                                        </p>
+                                   </div>
+                                   <div class="edu-item"
+                                        style="border-left: 3px solid var(--accent-secondary); padding-left: 20px;">
+                                        <h4 style="color: var(--text-primary);">Bachelor of Computer Application (BCA)
+                                        </h4>
+                                        <p style="color: var(--text-secondary);">Hemchandracharya North Gujarat
+                                             University | 2021-2023</p>
+                                   </div>
+                              </div>
+
+                         </div>
+                         <div class="skills-container">
+                              <h3>Technical Skills</h3>
+                              <div class="skills-grid">
+                                   <div class="skill-tag"><i class="fab fa-php"></i> PHP</div>
+                                   <div class="skill-tag"><i class="fab fa-wordpress"></i> WordPress</div>
+                                   <div class="skill-tag"><i class="fas fa-plug"></i> Custom Plugins</div>
+                                   <div class="skill-tag"><i class="fas fa-code"></i> ACF Pro</div>
+                                   <div class="skill-tag"><i class="fab fa-html5"></i> HTML5/CSS3</div>
+                                   <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+                                   <div class="skill-tag"><i class="fas fa-database"></i> MySQL</div>
+                                   <div class="skill-tag"><i class="fas fa-shopping-cart"></i> WooCommerce</div>
+                                   <div class="skill-tag"><i class="fab fa-elementor"></i> Elementor</div>
+                                   <div class="skill-tag"><i class="fas fa-server"></i> REST API & AJAX</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="experience" class="section">
+               <div class="container">
+                    <div class="section-header">
+                         <h2 class="section-title">Experience</h2>
+                         <p class="section-subtitle">My Professional Journey</p>
+                    </div>
+
+                    <div class="experience-timeline"
+                         style="max-width: 800px; margin: 0 auto; border-left: 2px solid var(--glass-border);">
+                         <!-- Job 1 -->
+                         <div class="exp-item" style="padding-left: 30px; position: relative; margin-bottom: 50px;">
+                              <span
+                                   style="position: absolute; left: -6px; top: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--gradient-main); box-shadow: 0 0 5px var(--accent);"></span>
+                              <h3 style="font-size: 1.5rem; color: var(--text-primary);">Web Developer</h3>
+                              <h4 style="color: var(--accent-secondary); margin-bottom: 10px;">Parul University | Jul
+                                   2025 - Present</h4>
+                              <p style="color: var(--text-secondary); margin-bottom: 10px;">
+                                   Developed and customized WordPress themes and plugins for institutional websites.
+                              </p>
+                              <ul style="color: var(--text-secondary); list-style: disc; margin-left: 20px;">
+                                   <li>Built an online booking system with integrated Easebuzz payment gateway.</li>
+                                   <li>Handled multiple web projects end-to-end, resolving bugs and ensuring
+                                        responsiveness.</li>
+                                   <li>Developed a custom WordPress plugin integrating Easebuzz with Contact Form 7
+                                        securely.</li>
+                                   <li>Leveraged ACF to build custom field types for real estate listings for
+                                        non-technical staff management.</li>
+                              </ul>
+                         </div>
+
+                         <!-- Job 2 -->
+                         <div class="exp-item" style="padding-left: 30px; position: relative; margin-bottom: 50px;">
+                              <span
+                                   style="position: absolute; left: -6px; top: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--gradient-main); box-shadow: 0 0 5px var(--accent);"></span>
+                              <h3 style="font-size: 1.5rem; color: var(--text-primary);">Wordpress Developer</h3>
+                              <h4 style="color: var(--accent-secondary); margin-bottom: 10px;">Vytech Enterprise | Jul
+                                   2024 - Jun 2025</h4>
+                              <p style="color: var(--text-secondary); margin-bottom: 10px;">
+                                   Developed and maintained high-performance, secure WordPress websites.
+                              </p>
+                              <ul style="color: var(--text-secondary); list-style: disc; margin-left: 20px;">
+                                   <li>Created main institutional site from scratch using Elementor and custom
+                                        configurations.</li>
+                                   <li>Customized themes and plugins to match business needs.</li>
+                                   <li>Resolved technical issues and ensured cross-device compatibility.</li>
+                              </ul>
+                         </div>
+
+                         <!-- Job 3 -->
+                         <div class="exp-item" style="padding-left: 30px; position: relative;">
+                              <span
+                                   style="position: absolute; left: -6px; top: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--gradient-main); box-shadow: 0 0 5px var(--accent);"></span>
+                              <h3 style="font-size: 1.5rem; color: var(--text-primary);">Jr. Wordpress (Backend)
+                                   Developer</h3>
+                              <h4 style="color: var(--accent-secondary); margin-bottom: 10px;">SmartInfosys.net | Nov
+                                   2022 - Apr 2024</h4>
+                              <p style="color: var(--text-secondary);">
+                                   Developed responsive user interfaces and collaborated with backend teams to integrate
+                                   APIs.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="portfolio" class="portfolio section">
+               <div class="container">
+                    <div class="section-header">
+                         <h2 class="section-title">Selected Projects</h2>
+                         <p class="section-subtitle">A showcase of my recent work</p>
+                    </div>
+                    <div class="portfolio-grid">
+                         <!-- Project 1 -->
+                         <article class="project-card">
+                              <div class="project-image" style="background: linear-gradient(45deg, #DE1A58, #222);">
+                                   <div class="project-overlay">
+                                        <a href="https://paruluniversity.ac.in/" target="_blank"
+                                             class="view-project-btn"><i class="fas fa-external-link-alt"></i></a>
+                                   </div>
+                              </div>
+                              <div class="project-info">
+                                   <h3>Parul University</h3>
+                                   <p>Official university website with custom themes and plugin integrations.</p>
+                                   <div class="project-tags">
+                                        <span>WordPress</span>
+                                        <span>Easebuzz</span>
+                                   </div>
+                              </div>
+                         </article>
+
+                         <!-- Project Custom Plugin -->
+                         <article class="project-card">
+                              <div class="project-image" style="background: linear-gradient(45deg, #F4B342, #222);">
+                                   <div class="project-overlay">
+                                        <span class="view-project-btn"><i class="fas fa-star"></i></span>
+                                   </div>
+                              </div>
+                              <div class="project-info">
+                                   <h3>Gift Box Startup Plugin</h3>
+                                   <p>Multi-step "Build Your Box" product builder with AJAX search and dynamic pricing.
+                                   </p>
+                                   <div class="project-tags">
+                                        <span>Custom Plugin</span>
+                                        <span>AJAX</span>
+                                        <span>PHP</span>
+                                   </div>
+                              </div>
+                         </article>
+
+                         <!-- Project Sakshamthad -->
+                         <article class="project-card">
+                              <div class="project-image" style="background: linear-gradient(45deg, #5e17eb, #222);">
+                                   <div class="project-overlay">
+                                        <a href="https://sakshamthadfoundation.paruluniversity.ac.in/" target="_blank"
+                                             class="view-project-btn"><i class="fas fa-external-link-alt"></i></a>
+                                   </div>
+                              </div>
+                              <div class="project-info">
+                                   <h3>Sakshamthad Foundation</h3>
+                                   <p>Foundation website ensuring high performance and responsiveness.</p>
+                                   <div class="project-tags">
+                                        <span>WordPress</span>
+                                        <span>Elementor</span>
+                                   </div>
+                              </div>
+                         </article>
+
+                         <!-- Project Vytech -->
+                         <article class="project-card">
+                              <div class="project-image" style="background: linear-gradient(45deg, #00f3ff, #222);">
+                                   <div class="project-overlay">
+                                        <a href="https://vytechenterprise.com/" target="_blank"
+                                             class="view-project-btn"><i class="fas fa-external-link-alt"></i></a>
+                                   </div>
+                              </div>
+                              <div class="project-info">
+                                   <h3>Vytech Enterprise</h3>
+                                   <p>Corporate website built from scratch with custom configurations.</p>
+                                   <div class="project-tags">
+                                        <span>WordPress</span>
+                                        <span>Secure</span>
+                                   </div>
+                              </div>
+                         </article>
+
+                         <!-- Project Fine Furniture -->
+                         <article class="project-card">
+                              <div class="project-image" style="background: linear-gradient(45deg, #DE1A58, #F4B342);">
+                                   <div class="project-overlay">
+                                        <a href="https://finefurniture.rw" target="_blank" class="view-project-btn"><i
+                                                  class="fas fa-external-link-alt"></i></a>
+                                   </div>
+                              </div>
+                              <div class="project-info">
+                                   <h3>Fine Furniture</h3>
+                                   <p>E-commerce furniture store with seamless user experience.</p>
+                                   <div class="project-tags">
+                                        <span>WooCommerce</span>
+                                        <span>Design</span>
+                                   </div>
+                              </div>
+                         </article>
+
+                         <!-- Project Aesthetic PNG -->
+                         <article class="project-card">
+                              <div class="project-image" style="background: linear-gradient(45deg, #111, #555);">
+                                   <div class="project-overlay">
+                                        <a href="http://aestheticpng.com/" target="_blank" class="view-project-btn"><i
+                                                  class="fas fa-external-link-alt"></i></a>
+                                   </div>
+                              </div>
+                              <div class="project-info">
+                                   <h3>Aesthetic PNG</h3>
+                                   <p>Digital resource platform.</p>
+                                   <div class="project-tags">
+                                        <span>Web</span>
+                                        <span>Resources</span>
+                                   </div>
+                              </div>
+                         </article>
+
+                    </div>
+               </div>
+          </section>
+
+          <section id="contact" class="contact section">
+               <div class="container">
+                    <div class="section-header">
+                         <h2 class="section-title">Get In Touch</h2>
+                         <p class="section-subtitle">Let's build something together</p>
+                    </div>
+                    <div class="contact-wrapper">
+                         <div class="contact-info">
+                              <div class="contact-card">
+                                   <i class="fas fa-envelope"></i>
+                                   <div>
+                                        <h3>Email</h3>
+                                        <p>ranvirsinhbapu0@gmail.com</p>
+                                   </div>
+                              </div>
+                              <div class="contact-card">
+                                   <i class="fas fa-phone"></i>
+                                   <div>
+                                        <h3>Phone</h3>
+                                        <p>+91 95863 06290</p>
+                                   </div>
+                              </div>
+                              <div class="contact-card">
+                                   <i class="fas fa-map-marker-alt"></i>
+                                   <div>
+                                        <h3>Location</h3>
+                                        <p>Aravalli, Gujarat</p>
+                                   </div>
+                              </div>
+                              <div class="contact-card">
+                                   <i class="fab fa-linkedin"></i>
+                                   <div>
+                                        <h3>LinkedIn</h3>
+                                        <p><a href="https://www.linkedin.com/in/ranvirsinh-makavana/" target="_blank"
+                                                  style="color: var(--accent);">View Profile</a></p>
+                                   </div>
+                              </div>
+                         </div>
+                         <form class="contact-form">
+                              <div class="form-group">
+                                   <input type="text" id="name" required placeholder=" ">
+                                   <label for="name">Your Name</label>
+                              </div>
+                              <div class="form-group">
+                                   <input type="email" id="email" required placeholder=" ">
+                                   <label for="email">Your Email</label>
+                              </div>
+                              <div class="form-group">
+                                   <textarea id="message" rows="5" required placeholder=" "></textarea>
+                                   <label for="message">Your Message</label>
+                              </div>
+                              <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                         </form>
+                    </div>
+               </div>
+          </section>
+     </main>
+
+     <footer class="footer">
+          <div class="container footer-content">
+               <div class="footer-logo">
+                    <a href="#">RB<span class="dot">.</span></a>
+               </div>
+               <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/ranvirsinh-makavana/" target="_blank"><i
+                              class="fab fa-linkedin"></i></a>
+                    <a href="mailto:ranvirsinhbapu0@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+               </div>
+          </div>
+          <p class="copyright">&copy; 2024 Ranvirsinh Makvana. All rights reserved.</p>
+     </footer>
+
+     <script src="assets/custome.js"></script>
+</body>
+
+</html>
