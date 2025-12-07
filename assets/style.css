@@ -991,3 +991,82 @@ ul {
         margin-bottom: 30px;
     }
 }
+
+/* Vision & Mission */
+.vm-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.vm-card {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--glass-border);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.vm-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.vm-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: var(--gradient-main);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Client Reviews */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.review-card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--glass-border);
+    position: relative;
+    transition: var(--transition);
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+}
+
+.review-stars {
+    color: var(--accent-secondary);
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.review-client {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+}
+
+.review-company {
+    font-size: 0.9rem;
+    color: var(--accent);
+    margin-top: 5px;
+    display: block;
+}
+
